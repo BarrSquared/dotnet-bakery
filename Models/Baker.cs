@@ -7,5 +7,9 @@ namespace DotnetBakery
 {
     public class Baker 
     {
+        public int id{get; set;};
+
+        [Required]
+        public string name{get; set;};
     }
 }

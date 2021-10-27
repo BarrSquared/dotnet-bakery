@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore;
 namespace DotnetBakery.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
-    public class BreadController : ControllerBase
+    [Route("api/[controller]")] // localhost:5000/api/breads
+    public class BreadsController : ControllerBase
     {
         private readonly ApplicationContext _context;
         public BreadController(ApplicationContext context) {
